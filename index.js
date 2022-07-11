@@ -50,4 +50,4 @@ app.post("/", function(req,res){
     res.redirect("/");//Redirects to the home route
 });
 
-app.listen(process.env.DATABASE || 80);
+app.listen(process.env.PORT || 80);
